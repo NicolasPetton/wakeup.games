@@ -80,7 +80,7 @@ article img {
 
 .hero-image {
   overflow: hidden;
-  width: min(90vw, 1200px);
+  width: min(90vw, 900px);
   border-radius: min(3vw, 2em);
 }
 
