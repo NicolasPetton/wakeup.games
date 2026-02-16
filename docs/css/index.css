@@ -1,11 +1,23 @@
 body {
   font-family:  "Montserrat", sans-serif;
   background: black;
-  background: linear-gradient(
-    to bottom,
-    #000000 0px,
-    #000000 300px,
-    #1e1b29 100%);
+  background:
+    radial-gradient(
+      /* ellipse at top center, */
+      ellipse 90% 75% at 50% 0%,
+      #fa8fbd40 0%,
+      #fa8fbd20 20%,
+      #00000000 80%
+    ),
+    /* ellipse at bottom center, */
+    radial-gradient(
+      ellipse 100% 100% at 50% 100%,
+      #A78BFA40 0%,
+      #A78BFA20 40%,
+      #00000000 60%
+    )
+    black;
+
   color: #f2f2f2;
   display: flex;
   display: flex;
@@ -35,6 +47,12 @@ header, article {
 
 header {
   margin-block: 3em;
+}
+
+footer {
+  opacity: .4;
+  margin-block: 2em;
+  font-weight: 500;
 }
 
 header img {
