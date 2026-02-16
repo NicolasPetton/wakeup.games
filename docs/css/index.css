@@ -34,7 +34,8 @@ header, article {
 }
 
 header img {
-  max-width: 400px;
+  width: min(60vw, 400px);
+  /* max-width: 400px; */
 }
 
 header img {
