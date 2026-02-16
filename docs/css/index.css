@@ -7,14 +7,14 @@ body {
       ellipse 90% 75% at 50% 0%,
       #fa8fbd40 0%,
       #fa8fbd20 25%,
-      #00000000 80%
+      #00000000 95%
     ),
     /* ellipse at bottom center, */
     radial-gradient(
-      ellipse 100% 100% at 50% 100%,
-      #8fa0fa40 0%,
-      #8fa0fa20 40%,
-      #00000000 60%
+      ellipse 100%  20% at 50% 100%,
+      #8ae6fa30 0%,
+      #8ae6fa10 30%,
+      #00000000 95%
     )
     black;
 
@@ -127,14 +127,14 @@ article img {
 	ellipse 90% 75% at 50% 0%,
 	#fa8fbd40 0%,
 	#fa8fbd20 40%,
-	#00000000 80%
+	#00000000 95%
       ),
       /* ellipse at bottom center, */
       radial-gradient(
 	ellipse 100% 100% at 50% 100%,
-	#A78BFA40 0%,
-	#A78BFA20 40%,
-	#00000000 60%
+	#8ae6fa30 0%,
+	#8ae6fa10 40%,
+	#00000000 95%
       )
       black;
   }
