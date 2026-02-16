@@ -4,7 +4,7 @@ body {
   background:
     radial-gradient(
       /* ellipse at top center, */
-      ellipse 90% 70% at 50% 0%,
+      ellipse 90% 50% at 50% 0%,
       #fa8fbd40 0%,
       #fa8fbd20 25%,
       #00000000 95%
