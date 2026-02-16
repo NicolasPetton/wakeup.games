@@ -61,7 +61,7 @@ header img {
 
 header img {
   transition: filter 0.5s ease;
-  animation: hueShift 10s ease-in-out infinite;
+  animation: hueShift 20s ease-in-out infinite;
 }
 
 @keyframes hueShift {
