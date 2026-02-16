@@ -61,6 +61,22 @@ header img {
 
 header img {
   transition: filter 0.5s ease;
+  animation: hueShift 10s ease-in-out infinite;
+}
+
+@keyframes hueShift {
+  0% {
+    filter: hue-rotate(0deg) saturate(1.8) brightness(1.1);
+  }
+  40% {
+    filter: hue-rotate(120deg) saturate(1.8) brightness(1.1);
+  }
+  80% {
+    filter: hue-rotate(0deg) saturate(1.8) brightness(1.1);
+  }
+  100% {
+    filter: hue-rotate(0deg) saturate(1.8) brightness(1.1);
+  }
 }
 
 a:hover, a:active {
