@@ -1,0 +1,98 @@
+body {
+  font-family:  "Montserrat", sans-serif;
+  background: black;
+  background: linear-gradient(
+    to bottom,
+    #000000 0px,
+    #000000 300px,
+    #1e1b29 100%);
+  color: #f2f2f2;
+  display: flex;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  padding-inline: 2rem;
+  min-height: 100dvh;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+a, a:visited {
+  color: #a78bfa;
+  text-decoration: none;
+}
+
+header, article {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+header img {
+  max-width: 400px;
+}
+
+header img {
+  transition: filter 0.5s ease;
+}
+
+a:hover {
+  filter: hue-rotate(120deg) saturate(1.8) brightness(1.1);
+  transition-duration: 2s;
+}
+
+nav {
+  display: flex;
+  gap: 1em;
+  font-size: 2em;
+  width: 100%;
+  justify-content: flex-end;
+  padding-top: 1rem;
+}
+
+nav a, nav a:visited {
+  color: #ddd;
+}
+
+nav a:hover {
+  color: #a78bfa;
+}
+
+
+.no_filter:hover {
+  filter: none;
+  color: #a78bfa;
+}
+
+
+article img {
+  width: 100%;
+}
+
+.hero-image {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 2em;
+}
+
+.hero-image img {
+  filter: brightness(0.8);
+  filter: grayscale(100%) brightness(.8) sepia(100%) hue-rotate(213deg) saturate(220%);
+  display: block;
+  transition:
+    transform 0.1s ease,
+    filter 0.2s ease;
+}
+
+.hero-image:hover img {
+  transform: scale(1.1);
+  transition:
+    transform 0.3s ease,
+    filter 1.0s ease;
+  filter: none;
+}
