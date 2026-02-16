@@ -131,9 +131,9 @@ article img {
       ),
       /* ellipse at bottom center, */
       radial-gradient(
-	ellipse 100% 100% at 50% 100%,
+	ellipse 100% 50% at 50% 100%,
 	#8ae6fa30 0%,
-	#8ae6fa10 40%,
+	#8ae6fa10 30%,
 	#00000000 95%
       )
       black;
