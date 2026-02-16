@@ -31,11 +31,11 @@ body {
   0% {
     filter: hue-rotate(0deg) saturate(1.8) brightness(1.1);
   }
-  40% {
-    filter: hue-rotate(120deg) saturate(1.8) brightness(1.1);
-  }
-  80% {
+  20% {
     filter: hue-rotate(0deg) saturate(1.8) brightness(1.1);
+  }
+  60% {
+    filter: hue-rotate(120deg) saturate(1.8) brightness(1.1);
   }
   100% {
     filter: hue-rotate(0deg) saturate(1.8) brightness(1.1);
