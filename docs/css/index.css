@@ -29,16 +29,16 @@ body {
 
 @keyframes hueShift {
   0% {
-    filter: hue-rotate(0deg) saturate(1.8) brightness(1.1);
+    filter: hue-rotate(0deg);
   }
   20% {
-    filter: hue-rotate(0deg) saturate(1.8) brightness(1.1);
+    filter: hue-rotate(0deg);
   }
   60% {
-    filter: hue-rotate(120deg) saturate(1.8) brightness(1.1);
+    filter: hue-rotate(120deg);
   }
   100% {
-    filter: hue-rotate(0deg) saturate(1.8) brightness(1.1);
+    filter: hue-rotate(0deg);
   }
 }
 
@@ -87,10 +87,6 @@ footer {
 
 header img {
   width: min(60vw, 400px);
-}
-
-header img {
-  transition: filter 0.5s ease;
   animation: hueShift 20s ease-in-out infinite;
 }
 
