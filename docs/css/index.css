@@ -11,7 +11,6 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 3rem;
   padding-inline: 2rem;
   min-height: 100dvh;
 }
@@ -31,6 +30,11 @@ header, article {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 2em;
+}
+
+header {
+  margin-bottom: 3em;
 }
 
 header img {
@@ -50,7 +54,7 @@ a:hover {
 nav {
   display: flex;
   gap: 1em;
-  font-size: 2em;
+  font-size: 1.6em;
   width: 100%;
   justify-content: flex-end;
   padding-top: 1rem;
