@@ -4,7 +4,7 @@ body {
   background:
     radial-gradient(
       /* ellipse at top center, */
-      ellipse 90% 75% at 50% 0%,
+      ellipse 90% 70% at 50% 0%,
       #fa8fbd40 0%,
       #fa8fbd20 25%,
       #00000000 95%
@@ -99,12 +99,13 @@ article img {
 .hero-image {
   overflow: hidden;
   width: min(90vw, 900px);
-  border-radius: min(3vw, 2em);
+  border-radius: min(3vw, 1.5em);
+  border: .2em solid white;
 }
 
 .hero-image img {
   filter: brightness(0.8);
-  filter: grayscale(100%) brightness(0.95) sepia(100%) hue-rotate(213deg) saturate(220%);
+  filter: grayscale(100%) brightness(0.85) sepia(100%) hue-rotate(213deg) saturate(220%);
   display: block;
   transition:
     transform 0.1s ease,
