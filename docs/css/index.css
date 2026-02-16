@@ -78,7 +78,7 @@ article img {
 .hero-image {
   overflow: hidden;
   width: 100%;
-  border-radius: 2em;
+  border-radius: 2vw;
 }
 
 .hero-image img {
