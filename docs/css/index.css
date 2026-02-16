@@ -34,7 +34,7 @@ header, article {
 }
 
 header {
-  margin-bottom: 3em;
+  margin-block: 3em;
 }
 
 header img {
