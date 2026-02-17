@@ -86,7 +86,7 @@ footer {
 }
 
 header img {
-  width: min(60vw, 400px);
+  width: min(60vw, 350px);
   animation: hueShift 20s ease-in-out infinite;
 }
 
