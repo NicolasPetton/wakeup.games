@@ -1,6 +1,4 @@
 body {
-  font-family:  "Montserrat", sans-serif;
-  background: black;
   background:
     radial-gradient(
       /* ellipse at top center, */
@@ -18,13 +16,33 @@ body {
     )
     black;
 
+  font-family:  "Montserrat", sans-serif;
   color: #f2f2f2;
-  display: flex;
+  font-size: clamp(1rem, 1.5vw, 1.125rem);
+  line-height: 1.6;
+
   display: flex;
   align-items: center;
   flex-direction: column;
   padding-inline: 2rem;
   min-height: 100dvh;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.2;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  text-align: center;
+}
+
+a, a:visited {
+  color: #a78bfa;
+  text-decoration: none;
 }
 
 @keyframes hueShift {
@@ -57,17 +75,6 @@ body {
   animation-delay: .8s;
 }
 
-h2 {
-  font-weight: 400;
-  font-size: 1.5em;
-  text-align: center;
-}
-
-a, a:visited {
-  color: #a78bfa;
-  text-decoration: none;
-}
-
 header, article {
   display: flex;
   align-items: center;
@@ -87,7 +94,6 @@ footer {
 
 header img {
   width: min(60vw, 350px);
-  animation: hueShift 20s ease-in-out infinite;
 }
 
 a:hover, a:active {
@@ -168,5 +174,11 @@ article img {
 
   nav {
     justify-content: center;
+  }
+}
+
+@media (hover: none) {
+  header img {
+    animation: hueShift 20s ease-in-out infinite;
   }
 }
