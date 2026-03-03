@@ -30,13 +30,13 @@ body {
 
 h2 {
   font-weight: 400;
-  font-size: clamp(1.2rem, 2vw, 2rem);
+  font-size: clamp(1.2rem, 1.4vw, 1.8rem);
   text-align: center;
 }
 
 h2 a {
   font-weight: 400;
-  font-size: clamp(1.4rem, 3vw, 2.5rem);
+  font-size: clamp(1.4rem, 3vw, 2.4rem);
   line-height: 1.2;
 }
 
