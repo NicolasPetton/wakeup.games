@@ -28,6 +28,16 @@ body {
   min-height: 100dvh;
 }
 
+p {
+  padding-bottom: 1rem;
+}
+
+h1 {
+  font-size: clamp(2rem, 2.5vw, 3rem);
+  font-weight: bold;
+  padding-block: 1rem;
+}
+
 h2 {
   font-weight: 400;
   font-size: clamp(1.2rem, 1.4vw, 1.8rem);
